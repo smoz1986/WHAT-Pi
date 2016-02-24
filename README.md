@@ -1,4 +1,4 @@
-Lighter version of WHAT-PRO
+Lighter version of WHAT-PRO, built for the Raspberry Pi
 Release notes for WiFi Hacking Attack Tool (WHAT) v1.0
 
 This is only to be used for educational purposes only. It is illegal to use this program against wireless devices that you do not own.
