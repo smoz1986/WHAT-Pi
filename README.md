@@ -35,6 +35,8 @@ git clone https://github.com/smoz1986/WHAT-Pi.git
 
 cd WHAT-Pi
 
+chmod +x SSLSTRIP.sh
+
 ./WHAT-installer.sh
 
 2. Once downloaded go to the 'WHAT-Pi' icon and click to start WHAT
