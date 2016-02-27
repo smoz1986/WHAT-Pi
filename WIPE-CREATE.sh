@@ -5,8 +5,8 @@ if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]
 then
 	echo Removing files and creating new folders
 	cd /root
-	rm -r airodumplog dropbox nmaplog wpslog etterlog 
-	mkdir airodumplog && mkdir dropbox && mkdir nmaplog && mkdir etterlog && mkdir wpslog
+	rm -r airodumplog dropbox nmaplog wpslog etterlog sslstriplog
+	mkdir airodumplog && mkdir dropbox && mkdir nmaplog && mkdir etterlog && mkdir wpslog && mkdir sslstriplog
 	cd airodumplog && mkdir pcap 
 	cd ..
 	cd wpslog && mkdir wpscrack
