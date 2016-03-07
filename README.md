@@ -35,7 +35,7 @@ git clone https://github.com/smoz1986/WHAT-Pi.git
 
 cd WHAT-Pi
 
-chmod +x *.sh
+chmod +x *.*
 
 ./WHAT-installer.sh
 
