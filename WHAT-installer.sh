@@ -10,5 +10,7 @@ git clone https://github.com/byt3bl33d3r/sslstrip2.git
 cd /root/
 git clone https://github.com/LeonardoNve/dns2proxy.git
 cd /root/WHAT-Pi/sslstrip2 && python setup.py install
+git clone https://github.com/sophron/wifiphisher.git
+apt-get install mana-toolkit
 echo All finished
 
