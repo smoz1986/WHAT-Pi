@@ -1,3 +1,3 @@
 #! /bin/bash
 
-gnome-terminal -e ./mana-start.sh --working-directory=/root/WHAT-PRO
+gnome-terminal -e ./mana-start.sh --working-directory=/root/WHAT-Pi
