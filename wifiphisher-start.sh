@@ -1,6 +1,6 @@
 #! /bin/bash
 
-cd /root/WHAT-Pi/wifiphisher/wifiphisher
+cd /root/WHAT-Pi/sslstrip2/wifiphisher/wifiphisher
 echo Starting airmon-ng and airodump-ng
 echo What is the name of your monitor interface wlan0, wlan1 etc
 read -p 'Interface: ' invar
