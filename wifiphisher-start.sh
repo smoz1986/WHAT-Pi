@@ -10,5 +10,5 @@ echo What is the name of your Rogue AP interface wlan1, wlan2 etc
 read -p 'Rogue AP Interface: ' rapvar
 ifconfig $invar up && ifconfig $rapvar up
 cd wifiphisher
-python wifiphisher.py -jI $invar -aI $rapvar
+python pywifiphisher.py -jI $invar -aI $rapvar
 $SHELL
